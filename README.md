@@ -1,2 +1,2 @@
 # moviedb
- getting movie ratings and pictures from an api
+ movie search app using reactjs
