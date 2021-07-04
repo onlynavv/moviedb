@@ -82,3 +82,29 @@ form > input {
   display: flex;
   flex-direction: column;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  padding: 5px 25px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.links > li {
+  list-style: none;
+}
+
+.indv-links {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin-right: 10px;
+  font-size: 20px;
+}
