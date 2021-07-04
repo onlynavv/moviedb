@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  margin-top: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-indv {
+  max-width: 300px;
+  margin: 20px 10px;
+}
